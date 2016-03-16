@@ -11,7 +11,7 @@ public class MailNotificationUtil {
 	}
 
 	public static void mailTo(String mailFrom, String mailTo,String mailTitle, String mailContent, String mailAttachment) {
-		System.out.println("its mail to process start");
+		System.out.println("its mail to process start22");
 		System.out.println("its mail to process end");
 	}
 	
