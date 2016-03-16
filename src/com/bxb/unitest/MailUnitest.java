@@ -20,7 +20,7 @@ public class MailUnitest {
 	public static List<String> mailTos= new ArrayList<String>();
 
 	public static void main(String[] args) {
-		System.out.print(1); 
+		System.out.print(1);
 		MailNotificationUtil.mailTo(mailFrom, mailTo,mailTitle, mailContent, mailAttachment);
 	
 		MailNotificationUtil.mailToByList(mailFrom,  mailTos,mailTitle, mailContent, mailAttachment);
